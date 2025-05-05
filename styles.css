@@ -1,7 +1,17 @@
 #heading {
 font-size: 30px;
+font-size: large;
+font-style: normal;
 }
-
-.intro {
-    font-size: 15px;
+p {
+font-size: 15;
+}
+ul > li {
+    font-style: italic;
+}
+h2.header {
+    font-weight: bold;
+}
+a:hover {
+color: rgb(193, 157, 114);
 }
