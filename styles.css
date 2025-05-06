@@ -1,17 +1,39 @@
 #heading {
-font-size: 30px;
-font-size: large;
-font-style: normal;
+    font-size: 30px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
 }
+
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px;
+    border-style: hidden;
+    border-color: bisque;
+    border-radius: 100px;
+    margin: 100px 100px 150px 150px;
+    padding: 80px 80px 120px 120px
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
 p {
-font-size: 15;
+    font-size: 15;
 }
-ul > li {
+
+ul>li {
     font-style: italic;
 }
+
 h2.header {
     font-weight: bold;
 }
+
 a:hover {
-color: rgb(193, 157, 114);
+    color: rgb(193, 157, 114);
 }
