@@ -1,50 +1,108 @@
 #heading {
     font-size: 30px;
-    font-size: large;
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
+    text-align: center;
+    margin-top: 20px;
 }
 
 body {
     color: black;
     background: linear-gradient(white, bisque);
     font-family: 'Times New Roman', Times, serif;
-    border: 5px;
-    border-style: hidden;
-    border-color: bisque;
-    border-radius: 100px;
-    margin: 100px 100px 150px 150px;
-    padding: 80px 80px 120px 120px
+    margin: 0;
+    padding: 0;
 }
+
 p {
-    font-size: 15;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
 }
+
 h2.header {
     font-weight: bold;
 }
-#nav_menu ul { 
-    list-style-type: none; 
+
+.navbar {
+    background-color: #C4A484;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 1.5rem;
 }
-#nav_menu ul li { 
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    color: #FFF5E1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #000000;
+}
+
+.header, .portfolio-name {
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFF5E1;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.work {
+    font-size: large;
+    font-style: normal;
+    color: #000000;
+}
+
+/* Service & Prices Boxes */
+.services, .prices {
+    padding: 15px;
+    background-color: white;
+    border-radius: 0px;
+    width: 40%;
+    border: double 2px #000000;
+    box-sizing: border-box;
+}
+
+.services {
     float: left;
-    width: 190px;
-    margin-bottom: 10px;
 }
-#nav_menu ul li a {
-text-align: center;
-display: block;
-padding: 1em 0;
-text-decoration: none;
-background-color: #d3b691;
-color: black;
-font-weight: bold;
-border-right: 2px solid white;
-border-radius: 10px;
-box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+.prices {
+    float: right;
 }
-#nav_menu ul li a.lastitem { 
-    border-right: none;
+
+.services ul,
+.prices ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 10px;
 }
-#nav_menu ul li a:hover {
-     background-color: #8c7960;
-    }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Optional: Make page spacing consistent */
+main {
+    padding: 40px 80px;
+}

@@ -1,9 +1,3 @@
-#heading {
-    font-size: 30px;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
-}
 section {
     background-color: #d3b691;
     margin: 20px auto;
@@ -33,33 +27,70 @@ img {
 p {
     font-size: 15;
 }
-header {
-    font-weight: bold;
-    clear: left;
+.navbar {
+  background-color: #C4A484;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  font-size: 1.5rem;
 }
-#nav_menu ul { 
-    list-style-type: none; 
+.navbar a {
+  color: #FFF5E1;         /* link color (white or any other you like) */
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
-#nav_menu ul li { 
-    float: left;
-    width: 190px;
-    margin-bottom: 10px;
+.navbar a:hover {
+  color: #000000;
 }
-#nav_menu ul li a {
-text-align: center;
-display: block;
-padding: 1em 0;
-text-decoration: none;
-background-color: #d3b691;
-color: black;
-font-weight: bold;
-border-right: 2px solid white;
-border-radius: 10px;
-box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;       
 }
-#nav_menu ul li a.lastitem { 
-    border-right: none;
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
-#nav_menu ul li a:hover {
-     background-color: #8c7960;
-    }
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar li {
+    margin-bottom: 0.5rem;
+  }
+
+  .header-title h1 {
+    font-size: 1.2rem;
+    align-self: flex-end;
+    text-align: right;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .services,
+  .prices {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  body {
+    padding: 1rem;
+    margin: 0;
+  }
+}
