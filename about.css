@@ -27,12 +27,8 @@ p {
     list-style: none;
     margin: 0;
     padding: 0;
+    gap: 1rem;
 }
-
-.navbar li {
-    margin: 0 1rem;
-}
-
 .navbar a {
     color: #FFF5E1;
     text-decoration: none;
@@ -55,7 +51,7 @@ main {
     padding: 40px 80px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 414px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
