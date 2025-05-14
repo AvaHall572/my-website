@@ -71,7 +71,6 @@ h2.header {
     color: #000000;
 }
 
-/* Service & Prices Boxes */
 .services, .prices {
     padding: 15px;
     background-color: white;
@@ -102,7 +101,6 @@ h2.header {
     clear: both;
 }
 
-/* Optional: Make page spacing consistent */
 main {
     padding: 40px 80px;
 }
