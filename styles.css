@@ -69,24 +69,28 @@ p {
 }
 
 @media (max-width: 414px) {
-  .header {
-    font-size: 1rem;
-    text-align: center;
-    width: 100%;
-    white-space: normal;
-    padding: 0.5rem;
-    margin: 0 auto;
-    align-self: flex-end;
-  }
-
   .navbar {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .navbar ul {
     flex-direction: column;
+    width: 100%;
+    align-items: center;
     gap: 0.5rem;
-    padding: 0;
+  }
+
+  .navbar li {
+    margin: 0.5rem 0;
+  }
+
+  .header {
+    font-size: 1rem;           /* shrink text */
+    text-align: center;
+    width: 100%;
+    white-space: normal;       /* allow wrapping */
+    word-break: break-word;    /* break long text if needed */
+    margin: 0.5rem 0;
   }
 }
