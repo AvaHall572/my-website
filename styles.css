@@ -6,12 +6,13 @@ body { /* BODY */
     border-style: hidden;
     border-color: bisque;
     border-radius: 100px;
-    margin: 100px 100px 150px 150px;
-    padding: 80px 80px 120px 120px;
+    margin: 0;
+    padding: 0;
 }
 p { /* PARAGRAPH SETTINGS */
     font-size: 15;
 }
+
 .navbar { /* NAVIGATION MENU */
   background-color: #C4A484;
   width: 100%;
@@ -43,6 +44,7 @@ p { /* PARAGRAPH SETTINGS */
 .header { /* HEADER */
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
+    color: #FFF5E1;
   font-size: 1.5rem;
   font-weight: bold;
   margin-right: 1rem;       
@@ -52,11 +54,20 @@ p { /* PARAGRAPH SETTINGS */
   display: table;
   clear: both;
 }
-
 @media only screen and (max-width: 414px) { /* OTHER DEVICES */
   .navbar {
     flex-direction: column;
     align-items: center;
+  }
+
+  .clearfix {
+    flex-direction: column;
+  }
+
+  .services, .prices {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
   }
 
   .navbar ul {
@@ -71,11 +82,11 @@ p { /* PARAGRAPH SETTINGS */
   }
 
   .header {
-    font-size: 1rem;           /* shrink text */
+    font-size: 1rem;
     text-align: center;
     width: 100%;
-    white-space: normal;       /* allow wrapping */
-    word-break: break-word;    /* break long text if needed */
+    white-space: normal;
+    word-break: break-word;
     margin: 0.5rem 0;
   }
 }
