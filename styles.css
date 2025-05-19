@@ -68,7 +68,7 @@ p {
   clear: both;
 }
 
-@media (max-width: 414px) {
+@media only screen and (max-width: 414px) {
   .navbar {
     flex-direction: column;
     align-items: center;

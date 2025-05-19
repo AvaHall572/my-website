@@ -12,6 +12,13 @@ body {
 p {
     font-size: 15;
 }
+.work { 
+  width: 50%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 .navbar {
   background-color: #C4A484;
   width: 100%;
@@ -48,13 +55,7 @@ p {
   font-weight: bold;
   margin-right: 1rem;       
 }
-.work {
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
-    color: #000000;
-}
-.services{
+.services {
     padding: 15px;
     background-color:white;
     border-radius: 0px;
@@ -89,7 +90,7 @@ p {
   display: table;
   clear: both;
 }
-@media (max-width: 414px) {
+@media only screen and (max-width: 414px) {
   .navbar {
     flex-direction: column;
     align-items: center;
@@ -117,11 +118,11 @@ p {
   }
 
   .header {
-    font-size: 1rem;           /* shrink text */
+    font-size: 1rem;
     text-align: center;
     width: 100%;
-    white-space: normal;       /* allow wrapping */
-    word-break: break-word;    /* break long text if needed */
+    white-space: normal;
+    word-break: break-word;
     margin: 0.5rem 0;
   }
 }
