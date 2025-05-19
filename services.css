@@ -1,4 +1,4 @@
-body {
+body { /* BODY */
     color: black;
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -9,17 +9,17 @@ body {
     margin: 0;
     padding: 0;
 }
-p {
+p { /* PARAGRAPH SETTINGS */
     font-size: 15;
 }
-.work { 
+.work { /* IMAGES */
   width: 50%;
 }
 img {
   max-width: 100%;
   height: auto;
 }
-.navbar {
+.navbar { /* NAVIGATION MENU */
   background-color: #C4A484;
   width: 100%;
   padding: 1rem;
@@ -47,7 +47,7 @@ img {
 .navbar a:hover {
   color: #000000;
 }
-.header {
+.header { /* HEADER */
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     color: #FFF5E1;
@@ -55,7 +55,7 @@ img {
   font-weight: bold;
   margin-right: 1rem;       
 }
-.services {
+.services { /* SERVICES COLUMN */
     padding: 15px;
     background-color:white;
     border-radius: 0px;
@@ -70,7 +70,7 @@ img {
   padding-left: 10px;
   margin-top: 10px;
 }
-.prices{
+.prices{ /* PRICES COLUMN */
     padding: 15px;
     background-color: white;
     border-radius: 0px;
@@ -85,12 +85,12 @@ img {
   padding-left: 20px;
   margin-top: 10px;
 }
-.clearfix::after {
+.clearfix::after { /* NAVIGATION MENU AND HEADER FIX */
   content: "";
   display: table;
   clear: both;
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 414px) { /* OTHER DEVICES */
   .navbar {
     flex-direction: column;
     align-items: center;
