@@ -4,19 +4,6 @@
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
 }
-
-body { /* BODY */
-    color: black;
-    background-color: white;
-    font-family: 'Times New Roman', Times, serif;
-    border: 5px;
-    border-style: hidden;
-    border-color: bisque;
-    border-radius: 100px;
-    margin: 100px 100px 150px 150px;
-    padding: 80px 80px 120px 120px
-}
-
 img { /* IMAGE */
     width: 100%;
     height: auto;
@@ -38,6 +25,13 @@ body { /* BODY */
     border-radius: 100px;
     margin: 0;
     padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #C4A484;
+}
+a:hover{
+  color: #000000;
 }
 .navbar { /* NAVIGATION MENU */
   background-color: #C4A484;
