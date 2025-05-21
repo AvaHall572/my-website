@@ -123,4 +123,11 @@ main { /* MAIN */
     word-break: break-word;   
     margin: 0.5rem 0;
   }
+  .grid-container {
+  grid-template-columns: 1fr 1fr;
+  }
+
+  .section.full {
+  grid-column: 1 / -1; /* Span both columns */
+  }
 }
