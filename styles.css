@@ -61,7 +61,7 @@ a:hover{
   display: table;
   clear: both;
 }
-@media only screen and (max-width: 414px) { /* OTHER DEVICES */
+@media only screen and (max-width: 620px) { /* OTHER DEVICES */
   .navbar {
     flex-direction: column;
     align-items: center;
