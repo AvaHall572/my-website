@@ -40,3 +40,19 @@ main {
   padding-left: 20px;
   margin-top: 10px;
 }
+@media screen and (max-width: 620px) {
+  .work {
+    width: 100%;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .services,
+  .prices {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px; /* Add spacing between the two boxes */
+  }
+}

@@ -44,12 +44,26 @@ a {
   color: #f4dfc2;
 }
 
-@media only screen and (max-width: 620px) { /* OTHER DEVICES */
-  .grid-container {
-  grid-template-columns: 1fr 1fr;
+@media screen and (max-width: 620px) {
+  main {
+    padding: 20px;
   }
 
-  .section.full {
-  grid-column: 1 / -1; /* Span both columns */
+  p {
+    font-size: 14px;
+  }
+
+  .grid-item {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .grid-item p {
+    font-size: 14px;
+  }
+
+  .grid-container {
+    gap: 1em;
+    padding: 10px;
   }
 }
