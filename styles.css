@@ -90,6 +90,75 @@ a:hover{
   color: #f3e2cb;
   font-size: medium;
 }
+.contact a:hover {
+  color: #d8b48c;
+}
+.reviews-section { /* Reviews */
+  background-color: #000000;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.reviews-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #876843;
+}
+
+.reviews-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review {
+  background-color: rgba(119, 91, 65, 0.85);
+  color: #ffffff;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  font-style: italic;
+  transition: transform 0.3s ease;
+}
+
+.review:hover {
+  transform: scale(1.03);
+}
+
+.review span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: normal;
+  color: #ffffff;
+}
+.leave-review { /*Leave a review */
+  background-color: transparent;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+}
+.leave-review p {
+  font-size: 1.2rem;
+  color: #876843;
+  margin-bottom: 20px;
+}
+
+.leave-review a {
+  background-color: rgba(207, 163, 110, 0.744);
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.leave-review a:hover {
+  background-color: #d8b48c;
+}
 footer {
   font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
@@ -122,5 +191,16 @@ footer {
     white-space: normal;      
     word-break: break-word;   
     margin: 0.5rem 0;
+  }
+    .reviews-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review {
+    width: 90%;
+  }
+  .leave-review {
+    padding: 0 20px;
   }
 }
