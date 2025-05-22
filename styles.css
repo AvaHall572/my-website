@@ -1,6 +1,18 @@
+#header { /* HEADERS */
+    font-size: 30px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+p { /* PARAGRAPH SETTINGS */
+    font-size: 15;
+}
+h2.header { /* NAVIGATION MENU */
+    font-weight: bold;
+}
 body { /* BODY */
     color: black;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
     border: 5px;
     border-style: hidden;
@@ -8,28 +20,32 @@ body { /* BODY */
     border-radius: 100px;
     margin: 0;
     padding: 0;
-}
-p { /* PARAGRAPH SETTINGS */
-    font-size: 15;
+    color: #ffffff;
 }
 a {
   text-decoration: none;
-  color: #C4A484;
+  color: #d2b394;
 }
 a:hover{
-  color: #000000;
+  color: #a29b93;
 }
-
-.navbar { /* NAVIGATION MENU */
-  background-color: #C4A484;
+.navbar {
+  background-color: #000000;
   width: 100%;
-  padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
   box-sizing: border-box;
   font-size: 1.5rem;
+
+  /* Sticky settings */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  /* Visual enhancement */
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Lighter shadow for dark bg */
+  padding: 1rem 2rem;
 }
 .navbar ul {
     display: flex;
@@ -39,19 +55,21 @@ a:hover{
     gap: 1rem;
 }
 .navbar a {
-  color: #FFF5E1;
+  color: #ffffff;
   text-decoration: none;
   margin: 0 1rem;
   font-weight: bold;
-  transition: color 0.3s ease;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s, color 0.3s;
 }
-.navbar a:hover {
-  color: #000000;
+.navbar a:hover, .navbar a.active {
+  color: #a67c52; /* Stylish gold-brown accent */
+  border-bottom: 2px solid #a67c52;
 }
 .header { /* HEADER */
-    font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
-    color: #FFF5E1;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  color: #ffffff;
   font-size: 1.5rem;
   font-weight: bold;
   margin-right: 1rem;       
@@ -61,15 +79,31 @@ a:hover{
   display: table;
   clear: both;
 }
+.contact { /*Contact info at bottom */
+  background-color: rgba(207, 163, 110, 0.744);
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+.contact a {
+  color: #f3e2cb;
+  font-size: medium;
+}
+footer {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 @media only screen and (max-width: 620px) { /* OTHER DEVICES */
   .navbar {
     flex-direction: column;
     align-items: center;
   }
 
-  .clearfix {
-    flex-direction: column;
-  }
   .navbar ul {
     flex-direction: column;
     width: 100%;
@@ -85,8 +119,8 @@ a:hover{
     font-size: 60%;
     text-align: center;
     width: 100%;
-    white-space: normal;
-    word-break: break-word;
+    white-space: normal;      
+    word-break: break-word;   
     margin: 0.5rem 0;
   }
 }

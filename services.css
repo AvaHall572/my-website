@@ -5,75 +5,19 @@ img {
   max-width: 100%;
   height: auto;
 }
-body { /* BODY */
-    color: black;
-    background-color: white;
-    font-family: 'Times New Roman', Times, serif;
-    border: 5px;
-    border-style: hidden;
-    border-color: bisque;
-    border-radius: 100px;
-    margin: 0;
-    padding: 0;
-}
 main {
     padding: 40px 80px;
 }
-p { /* PARAGRAPH SETTINGS */
-    font-size: 15px;
-}
-a {
-  text-decoration: none;
-  color: #C4A484;
-}
-a:hover{
-  color: #000000;
-}
-.navbar { /* NAVIGATION MENU */
-  background-color: #C4A484;
-  width: 100%;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  box-sizing: border-box;
-  font-size: 1.5rem;
-}
-.navbar ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 1rem;
-}
-.navbar a {
-  color: #FFF5E1;
-  text-decoration: none;
-  margin: 0 1rem;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-.navbar a:hover {
-  color: #000000;
-}
-.header { /* HEADER */
-    font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
-    color: #FFF5E1;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-right: 1rem;       
-}
 .services { /* SERVICES COLUMN */
     padding: 15px;
-    background-color:white;
+    background-color:rgba(207, 163, 110, 0.744);
     border-radius: 0px;
     width: 40%;
     float: left;
-    border-style: double;
-    border-color: #000000;
+    border-style: hidden;
     border-width: 2px;
+    border-radius: 10px;
+    color: #ffffff;
 }
 .services ul {
   list-style-type: square;
@@ -82,65 +26,17 @@ a:hover{
 }
 .prices{ /* PRICES COLUMN */
     padding: 15px;
-    background-color: white;
+    background-color: rgba(207, 163, 110, 0.744);
     border-radius: 0px;
     width: 40%;
     float: right;
-    border-style: double;
-    border-color: #000000;  
+    border-style: hidden;
+    border-radius: 10px;
     border-width: 2px;
+    color: #ffffff;
 }
 .prices ul {
   list-style-type: square; 
   padding-left: 20px;
   margin-top: 10px;
-}
-.clearfix::after { /* NAVIGATION MENU AND HEADER FIX */
-  content: "";
-  display: table;
-  clear: both;
-}
-@media only screen and (max-width: 620px) {
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    padding: 0.5rem 0;
-  }
-
-  .navbar ul {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    gap: 0; /* Remove extra space between list items */
-  }
-
-  .navbar li {
-    margin: 0; /* Remove default spacing */
-    padding: 0;
-  }
-
-  .navbar a {
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-    margin: 0; /* Remove side margin that causes visual gaps */
-  }
-
-  .header {
-    font-size: 1.2rem;
-    margin: 0.5rem 0;
-    text-align: center;
-  }
-      .services, .prices {
-    width: 100%;
-    margin-bottom: 1rem;
-    float: none;
-  }
-
-  .clearfix {
-    flex-direction: column;
-  }
 }
