@@ -43,8 +43,8 @@ a:hover{
   top: 0;
   z-index: 1000;
 
-  /* Visual enhancement */
-  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Lighter shadow for dark bg */
+  /* Visual */
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
   padding: 1rem 2rem;
 }
 .navbar ul {
@@ -106,10 +106,9 @@ a:hover{
 }
 
 .reviews-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 20px;
 }
 
 .review {
