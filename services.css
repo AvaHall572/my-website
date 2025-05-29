@@ -1,45 +1,55 @@
-.work { /* IMAGES */
+.work {
+  /* IMAGES */
   width: 50%;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 main {
-    padding: 40px 80px;
+  padding: 40px 80px;
 }
-.services { /* SERVICES COLUMN */
-    padding: 15px;
-    background-color:rgba(207, 163, 110, 0.744);
-    border-radius: 0px;
-    width: 40%;
-    float: left;
-    border-style: hidden;
-    border-width: 2px;
-    border-radius: 10px;
-    color: #ffffff;
+
+.services {
+  /* SERVICES COLUMN */
+  padding: 15px;
+  background-color: rgba(207, 163, 110, 0.744);
+  border-radius: 0px;
+  width: 40%;
+  float: left;
+  border-style: hidden;
+  border-width: 2px;
+  border-radius: 10px;
+  color: #ffffff;
 }
+
 .services ul {
   list-style-type: square;
   padding-left: 10px;
   margin-top: 10px;
 }
-.prices{ /* PRICES COLUMN */
-    padding: 15px;
-    background-color: rgba(207, 163, 110, 0.744);
-    border-radius: 0px;
-    width: 40%;
-    float: right;
-    border-style: hidden;
-    border-radius: 10px;
-    border-width: 2px;
-    color: #ffffff;
+
+.prices {
+  /* PRICES COLUMN */
+  padding: 15px;
+  background-color: rgba(207, 163, 110, 0.744);
+  border-radius: 0px;
+  width: 40%;
+  float: right;
+  border-style: hidden;
+  border-radius: 10px;
+  border-width: 2px;
+  color: #ffffff;
 }
+
 .prices ul {
-  list-style-type: square; 
+  list-style-type: square;
   padding-left: 20px;
   margin-top: 10px;
 }
+
 @media screen and (max-width: 620px) {
   .work {
     width: 100%;
@@ -53,6 +63,7 @@ main {
   .prices {
     width: 100%;
     float: none;
-    margin-bottom: 20px; /* Add spacing between the two boxes */
+    margin-bottom: 20px;
+    /* Add spacing between the two boxes */
   }
 }

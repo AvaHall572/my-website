@@ -45,20 +45,22 @@
   opacity: 1;
   padding: 0.5rem 1rem;
 }
+
 @media (max-width: 620px) {
   .answer {
     max-height: none !important;
     opacity: 1 !important;
     padding: 0.5rem 1rem !important;
   }
-  
+
   .faq-item {
     cursor: default;
   }
-  
+
   .question:hover {
     background-color: #f3e1d0;
   }
+
   .faq-toggle {
     display: none;
   }
