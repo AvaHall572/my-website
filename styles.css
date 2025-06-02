@@ -1,14 +1,13 @@
 #header {
   /* HEADERS */
   font-size: 30px;
-  font-size: large;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
 }
 
 p {
   /* PARAGRAPH SETTINGS */
-  font-size: 15;
+  font-size: 15px;
 }
 
 h2.header {
@@ -132,8 +131,9 @@ a:hover {
 
 .reviews-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
 }
 
 .review {
@@ -222,12 +222,12 @@ footer {
   }
 
   .reviews-grid {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: 1fr;
   }
 
   .review {
-    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
   }
 
   .leave-review {
