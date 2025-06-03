@@ -50,11 +50,12 @@
   .answer {
     max-height: none !important;
     opacity: 1 !important;
-    padding: 0.5rem 1rem !important;
   }
 
   .faq-item {
     cursor: default;
+    width: 90%;
+    padding: 15px;
   }
 
   .question:hover {

@@ -52,14 +52,13 @@ img {
   }
 
   main {
-    padding: 20px;
+    padding: 15px;
   }
 
   .services,
   .prices {
-    width: 100%;
     float: none;
-    margin-bottom: 20px;
-    /* Add spacing between the two boxes */
+    margin-bottom: 10px;
+    width: 90%;
   }
-}
+  }
