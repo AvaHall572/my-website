@@ -48,12 +48,12 @@
 
 @media (max-width: 620px) {
   /*Other devices */
-  .answer {
+  .answer { /* Answer */
     max-height: none !important;
     opacity: 1 !important;
   }
 
-  .faq-item {
+  .faq-item { /* Question */
     cursor: default;
     width: 90%;
     padding: 15px;
@@ -63,7 +63,7 @@
     background-color: #f3e1d0;
   }
 
-  .faq-toggle {
+  .faq-toggle { /* Answer hover effect gone */
     display: none;
   }
 }
