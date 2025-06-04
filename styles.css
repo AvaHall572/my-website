@@ -182,7 +182,10 @@ footer { /* footer */
   font-size: medium;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
-  padding: 0;
+}
+
+.navbar, footer {
+  padding: 0px;
 }
 
 @media only screen and (max-width: 620px) {
