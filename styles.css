@@ -1,8 +1,11 @@
-#header {
-  /* HEADERS */
-  font-size: 30px;
+.header {
+  /* HEADER */
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
 }
 
 p {
@@ -28,16 +31,16 @@ body {
   padding: 15px;
 }
 
-a {
+a { /* Links */
   text-decoration: none;
   color: #d2b394;
 }
 
-a:hover {
+a:hover { /* Link hover */
   color: #a29b93;
 }
 
-.navbar {
+.navbar { /* Navigation */
   background-color: #000000;
   width: 100%;
   display: flex;
@@ -76,18 +79,7 @@ a:hover {
 .navbar a:hover,
 .navbar a.active {
   color: #a67c52;
-  /* Stylish gold-brown accent */
   border-bottom: 2px solid #a67c52;
-}
-
-.header {
-  /* HEADER */
-  font-family: 'Times New Roman', Times, serif;
-  font-style: normal;
-  color: #ffffff;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-right: 1rem;
 }
 
 .clearfix::after {
@@ -186,7 +178,7 @@ a:hover {
   background-color: #d8b48c;
 }
 
-footer {
+footer { /* footer */
   font-size: medium;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;

@@ -1,20 +1,21 @@
 p {
-  /* PARAGRAPH SETTINGS */
+  /* Paragraph settings */
   font-size: 15px;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
 
-main {
-  /* MAIN */
-  padding: 20px 1px;
+body {
+  /* Body */
+  padding: 15px;
 }
 
-.flex-container {
+.flex-container { /*All about me and school sections */
   display: flex;
   gap: 20px;
   align-items: flex-start;
   width: 100%;
+  padding-bottom: 20px;
 }
 
 .flex-item {
@@ -29,7 +30,7 @@ main {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.flex-item h2 {
+.flex-item h2 { /* Headers in all about me and school*/
   color: #ffffff;
   margin-top: 0;
   font-size: medium;
@@ -50,6 +51,7 @@ a {
 }
 
 @media screen and (max-width: 620px) {
+  /* Other devices */
   p {
     font-size: 14px;
   }

@@ -1,4 +1,4 @@
-.faq {
+.faq { /* Questions */
   max-width: 700px;
   margin: 2rem auto;
   font-family: 'Times New Roman', Times, serif;
@@ -24,7 +24,7 @@
   background-color: #d8b48c;
 }
 
-.answer {
+.answer { /* Question answers */
   max-height: 0;
   overflow: hidden;
   opacity: 0;
@@ -47,6 +47,7 @@
 }
 
 @media (max-width: 620px) {
+  /*Other devices */
   .answer {
     max-height: none !important;
     opacity: 1 !important;

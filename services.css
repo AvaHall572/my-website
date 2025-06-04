@@ -3,7 +3,7 @@
   width: 50%;
 }
 
-img {
+img { 
   max-width: 100%;
   height: auto;
 }
@@ -47,6 +47,7 @@ img {
 }
 
 @media screen and (max-width: 620px) {
+  /* Other devices */
   .work {
     width: 100%;
   }
@@ -61,4 +62,4 @@ img {
     margin-bottom: 10px;
     width: 90%;
   }
-  }
+}
