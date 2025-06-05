@@ -183,14 +183,23 @@ a:hover { /* Link hover */
   background-color: #d8b48c;
 }
 
+.contact-header { /* Contact information */
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.contact-header h4 {
+  margin: 0;
+}
+
+.material-symbols-outlined {
+  font-size: 22px;
+}
 footer { /* footer */
   font-size: medium;
   font-family: "Abel", sans-serif;
   text-align: center;
-}
-
-.navbar, footer {
-  padding: 0px;
 }
 
 @media only screen and (max-width: 620px) {
