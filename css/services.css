@@ -8,6 +8,10 @@ img {
   height: auto;
 }
 
+.rotated {
+  transform: rotate(-90deg); 
+}
+
 .services {
   /* SERVICES COLUMN */
   padding: 15px;
