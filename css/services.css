@@ -76,7 +76,9 @@ img {
   height: 600px;
   object-fit: cover;
   border-radius: 8px;
-  transform: rotate(-90deg); 
 }
+  
+.rotated {
+  transform: rotate(-90deg); 
 }
 }
