@@ -70,15 +70,15 @@ img {
   justify-items: center;
   padding-top: 20px;
 }
-}
 
 .work-grid img {
-  width: 50%;
-  height: auto;
+  width: 600px;
+  height: 600px;
   object-fit: cover;
   border-radius: 8px;
 }
   
 .rotated {
-  transform: rotate(-90deg); 
+  transform: rotate(-180deg); 
+}
 }
