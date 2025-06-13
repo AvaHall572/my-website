@@ -61,7 +61,7 @@
   }
 
   .work-grid img {
-    max-width: 100%; /* Let the image fill the column */
+    max-width: 90%; /* Let the image fill the column */
   }
 }
   /* Other devices */
