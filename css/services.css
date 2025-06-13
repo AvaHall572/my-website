@@ -3,14 +3,6 @@ img { /* images */
   height: auto;
 }
 
-.work-grid { 
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 images per row */
-  gap: 20px;
-  justify-items: center;
-  padding-top: 20px;
-}
-
 .services {
   /* SERVICES COLUMN */
   padding: 15px;
@@ -61,6 +53,14 @@ img { /* images */
     margin-bottom: 10px;
     width: 90%;
   }
+
+  .work-grid { 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+  gap: 20px;
+  justify-items: center;
+  padding-top: 20px;
+}
 
 .work-grid img {
   width: 600px;
