@@ -63,8 +63,8 @@ img { /* images */
 }
 
 .work-grid img {
-  width: 600px;
-  height: 600px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 8px;
 }
