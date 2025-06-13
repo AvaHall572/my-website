@@ -60,6 +60,10 @@
   .work {
     width: 100%;
   }
+
+  .work-grid {
+  display: flex;
+}
   
   main {
     padding: 15px;
