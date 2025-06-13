@@ -62,9 +62,13 @@
   }
 
   .work-grid {
-  display: flex;
-}
-  
+    grid-template-columns: 1fr; /* 1 image per row on small screens */
+  }
+
+  .work-grid img {
+    max-width: 100%; /* Use full container width */
+  }
+ 
   main {
     padding: 15px;
   }
