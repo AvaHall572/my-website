@@ -1,0 +1,84 @@
+.work {
+  /* IMAGES */
+  width: 50%;
+}
+
+img { 
+  max-width: 100%;
+  height: auto;
+}
+
+.services {
+  /* SERVICES COLUMN */
+  padding: 15px;
+  background-color: rgba(207, 163, 110, 0.744);
+  border-radius: 0px;
+  width: 40%;
+  float: left;
+  border-style: hidden;
+  border-width: 2px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.services ul {
+  list-style-type: square;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.prices {
+  /* PRICES COLUMN */
+  padding: 15px;
+  background-color: rgba(207, 163, 110, 0.744);
+  border-radius: 0px;
+  width: 40%;
+  float: right;
+  border-style: hidden;
+  border-radius: 10px;
+  border-width: 2px;
+  color: #ffffff;
+}
+
+.prices ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 620px) {
+  /* Other devices */
+  .work {
+    width: 100%;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  .services,
+  .prices {
+    float: none;
+    margin-bottom: 10px;
+    width: 90%;
+  }
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+  gap: 20px;
+  justify-items: center;
+  padding-top: 20px;
+}
+
+.work-grid img {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.rotated {
+  transform: rotate(-90deg); 
+}
