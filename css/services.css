@@ -62,7 +62,6 @@ img {
     margin-bottom: 10px;
     width: 90%;
   }
-}
 
 .work-grid {
   display: grid;
@@ -77,8 +76,4 @@ img {
   height: 600px;
   object-fit: cover;
   border-radius: 8px;
-}
-
-.rotated {
-  transform: rotate(-90deg); 
 }
