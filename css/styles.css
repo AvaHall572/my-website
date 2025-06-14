@@ -238,14 +238,14 @@ footer { /* footer */
     word-break: break-word;
     margin: 0.5rem 0;
   }
-
+ 
   .reviews-grid {
-    grid-template-columns: 250px;
+    grid-template-columns: 1fr; /* Stack items vertically */
+    justify-items: center; /* Center reviews horizontally */
   }
 
   .review {
-    max-width: 100%;
-    margin: 0 auto;
+    width: 90%; /* Let the review box shrink for mobile */
   }
 
   .leave-review {
