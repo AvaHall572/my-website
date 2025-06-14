@@ -56,10 +56,9 @@
 }
 
 @media screen and (max-width: 360px) {
-  .work-grid {
-    grid-template-columns: 1fr; /* 1 column on small phones */
+  .work-container {
+    grid-template-columns: 1fr; /* 1 item per row on small screens */
   }
-
   .work-grid img {
     max-width: 90%; /* Let the image fill the column */
   }
