@@ -68,8 +68,8 @@
   }
 
   .work-grid img {
-    max-width: 90vw; /* limit max size */
-    aspect-ratio: 1 / 1;
+    max-width: 100%;   /* fill container */
+    height: auto;      /* adjust height to keep aspect */
   }
 
   .work {
@@ -85,5 +85,12 @@
     float: none;
     margin-bottom: 10px;
     width: 90%;
+  }
+}
+
+/* Optional: medium screens */
+@media screen and (min-width: 361px) and (max-width: 600px) {
+  .work-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
   }
 }
