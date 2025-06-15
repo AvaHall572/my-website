@@ -12,8 +12,8 @@
 
 .work-grid img {
   width: 100%;      /* fills the grid cell */
-  height: 400px;
   max-width: 400px; /* max size on big screens */
+  aspect-ratio: 1 / 1; /* Keep images square */
   object-fit: cover;
   border-radius: 8px;
   display: block; /* remove inline img spacing */
@@ -68,8 +68,8 @@
   }
 
   .work-grid img {
-    max-width: 90vw;
-    height: auto; /* maintain aspect ratio */
+    max-width: 90vw; /* limit max size */
+    aspect-ratio: 1 / 1;
   }
 
   .work {
