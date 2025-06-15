@@ -1,14 +1,17 @@
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* auto-fit columns, min 200px */
   gap: 20px;
   justify-items: center;
   padding-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .work-grid img {
-  width: 600px;
-  height: 600px;
+  width: 100%;      /* fills the grid cell */
+  height: auto;     /* maintain aspect ratio */
+  max-width: 600px; /* max size on big screens */
   object-fit: cover;
   border-radius: 8px;
 }
