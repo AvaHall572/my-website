@@ -149,8 +149,7 @@ a:hover { /* Link hover */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
   font-style: italic;
   transition: transform 0.3s ease;
-  width: 100%;
-  max-width: 300px;
+  width: 300px;
 }
 
 .review:hover {
