@@ -6,15 +6,13 @@
   padding-top: 20px;
   width: 100%;
   box-sizing: border-box;
-  width: 100%;
   max-width: 100vw; /* prevent horizontal overflow */
-  box-sizing: border-box;
   overflow-x: hidden; /* just in case */
 }
 
 .work-grid img {
   width: 100%;      /* fills the grid cell */
-  height: auto;     /* maintain aspect ratio */
+  height: 400px;
   max-width: 400px; /* max size on big screens */
   object-fit: cover;
   border-radius: 8px;
