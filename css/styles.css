@@ -136,9 +136,9 @@ a:hover { /* Link hover */
 
 .reviews-grid {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 600px 1fr;
-  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
 }
 
 .review {
