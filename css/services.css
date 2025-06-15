@@ -56,18 +56,20 @@
 }
 
 @media screen and (max-width: 360px) {
-  .work-container {
-    grid-template-columns: 1fr; /* 1 item per row on small screens */
-  }
-  .work-grid img {
-    max-width: 90%; /* Let the image fill the column */
-  }
-}
   /* Other devices */
+  .work-grid {
+    grid-template-columns: 1fr; /* One image per row */
+  }
+
+  .work-grid img {
+    max-width: 90%;
+    height: auto; /* maintain aspect ratio */
+  }
+
   .work {
     width: 100%;
   }
- 
+
   main {
     padding: 15px;
   }
