@@ -49,10 +49,6 @@ a {
 @media screen and (max-width: 620px) {
 
   /* Other devices */
-  p {
-    font-size: 14px;
-  }
-
   .flex-item h2 {
     /* Headers in all about me and school*/
     font-size: 14px;
